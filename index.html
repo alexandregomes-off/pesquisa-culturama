@@ -27,19 +27,19 @@
                 <input id="name" name="userName" required>
                 <br>
                 <label for="age">Idade</label>
-                <input id="age" name="userAge" min="12" max="100" required>
+                <input type="number" id="age" name="userAge" min="12" max="100" required>
                 <br>
                 <label for="birthDate">Data de nascimento</label>
-                <input id="birthDate" name="userBirthDate">
+                <input type="date" id="birthDate" name="userBirthDate">
                 <br>
                 <label for="email">Email</label>
-                <input id="email" name="userEmail" required>
+                <input type="email" id="email" name="userEmail" required>
                 <br>
                 <label for="phoneNumber">Telefone</label>
-                <input id="phoneNumber" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número">
+                <input type="number" id="phoneNumber" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número">
                 <br>
                 <label for="image">Upload de Foto</label>
-                <input id="image" type="image" accept="image/*" name="userImage">
+                <input id="image" type="file" accept="image/*" name="userImage">
                 <br>
             </fieldset>
 
