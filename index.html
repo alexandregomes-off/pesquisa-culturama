@@ -94,13 +94,8 @@
                 <br>
 
                 <label for="city">Cidade:</label>
-                <input
-                    id="city" 
-                    type="text"
-                    name="userCity"
-                    autocomplete="address-level2"
-                    placeholder="Ex.: Fortaleza" 
-                />
+                <input id="city" type="text" name="userCity" autocomplete="address-level2"
+                    placeholder="Ex.: Fortaleza" />
 
             </fieldset>
 
@@ -112,7 +107,7 @@
                 <br>
                 <input id="facebook" type="checkbox" name="social" value="facebook">
                 <label for="facebook">Facebook</label>
-                <br>                
+                <br>
                 <input id="linkedin" type="checkbox" name="social" value="linkedin">
                 <label for="linkedin">Linkedin</label>
                 <br>
@@ -127,7 +122,10 @@
                     <option value="Pop"></option>
                     <option value="Samba"></option>
                     <option value="Sertanejo"></option>
-                </datalist>       
+                </datalist>
+                <br>
+                <label for="favoriteColor">Cor Favorita</label>
+                <input type="color" name="userFavoriteColor" id="favoriteColor">
             </fieldset>
             <button type="submit">Enviar</button>
         </form>
