@@ -58,7 +58,9 @@ legend {
     padding: 0 5px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -80,11 +82,15 @@ input[type="color"] {
     padding: 0 5px;
 }
 
-input:invalid, select:invalid, textarea:invalid {
+input:invalid,
+select:invalid,
+textarea:invalid {
     border-color: red;
 }
 
-input:valid, select:valid, textarea:valid  {
+input:valid,
+select:valid,
+textarea:valid {
     border-color: green;
 }
 
@@ -107,4 +113,3 @@ button {
         color: #ffffff;
     }
 }
-
